@@ -4,7 +4,8 @@ public class Main {
     Hero yoshihiko = new Hero("よしひこ");
     Wizard anna = new Wizard("あんな");
     Monster matango = new Monster();
-    yoshihiko.attack(matango);
+    yoshihiko.tackle(matango);
+    anna.tackle(matango);
     anna.merazoma(matango);
   }
 }

@@ -9,5 +9,9 @@ public abstract class Combatant {
     this.basicDamegeScore = 10;
   }
 
-  public abstract void attack(Monster m);
+  public abstract void tackle(Monster m);
+
+  protected final void attack(int score, Monster m) {
+    m.hp -= score;
+  }
 }
