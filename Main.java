@@ -3,7 +3,8 @@ public class Main {
     System.out.println("Game started...!");
     Hero yoshihiko = new Hero("よしひこ");
     Wizard anna = new Wizard("あんな");
-    Monster matango = new Monster();
+    Monster matango = new Slime();
+    Slime s = new Slime();
     yoshihiko.tackle(matango);
     anna.tackle(matango);
     anna.merazoma(matango);
